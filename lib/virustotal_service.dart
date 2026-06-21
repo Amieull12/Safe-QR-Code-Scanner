@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class VirusTotalService {
-  static const String _apiKey = 'e954f0d1afca3eb6a2df84d74057f5d7e0f5758075eb021b65a91d719be38fc5';
+  static const String _apiKey = 'YOUR-VIRUSTOTAL-API-KEY';
 
   static Future<Map<String, dynamic>> checkUrl(String url) async {
     try {
