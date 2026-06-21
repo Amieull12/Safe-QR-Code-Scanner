@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class SafeBrowsingService {
-  static const String _apiKey = 'AIzaSyAUym-3wYJ-7AFJArPEYbK5f0a-43IWGXs';
+  static const String _apiKey = 'YOUR-GOOGLE-SAFE-BROWSING-API-KEY';
 
   static Future<Map<String, dynamic>> checkUrl(String url) async {
     final Uri endpoint = Uri.parse(
